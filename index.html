@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java Script</title>
+</head>
+<body>
+    
+    <!-- <form action="#">
+        <input type="text" id="count" value="0" >
+        <input type="button" value="+" onclick="add()" >
+        <input type="button" value="-" onclick="sub()" >
+
+      
+    </form>
+
+<br>
+<br><br><br>
+<br><br><br> -->
+
+
+    <!-- // ------------------------------------  -->
+    <!-- // result sheet -->
+    <!-- // ----------------------------------------- sss -->
+    
+
+      <table border="1" style="text-align: center; width:100% ; height: 650px; " >
+            <tr  style="background-color: gray;">
+                <th>SI. No</th>
+                <th>Subject Name</th>
+                <th>Subject Code</th>
+                <th>Theory Marks</th>
+                <th>Practical Marks</th>
+                <th>Total Marks</th>
+                <th>Grade</th>
+                <th>Point</th>
+                <th>Action</th>
+            </tr>
+
+            <tr style="background-color: aquamarine ;">
+                <td>1</td>
+                <td>Bangla 1st Paper</td>
+                <td>101</td>
+                <td>
+                    <input type="text" id="tm" value="0">
+                </td>
+                <td>
+                    <input type="text" id="pm" value="0">
+                </td>
+                <td>
+                    <input type="text" id="ttm">
+                </td>
+                <td>
+                    <input type="text" id="grade">
+                </td>
+                <td>
+                    <input type="text" id="point">
+                </td>
+
+               <td>
+                <input  style="background-color: skyblue ;" type="button" onclick="result1()" value="Get Result">
+               </td>
+            </tr>
+
+
+            <tr style="background-color: slategrey ;">
+                <td>2</td>
+                <td>Bangla 2nd Paper</td>
+                <td>102</td>
+                <td>
+                    <input type="text" id="tm2" value="0">
+                </td>
+                <td>
+                    <input type="text" id="pm2" value="0">
+                </td>
+                <td>
+                    <input type="text" id="ttm2">
+                </td>
+                <td>
+                    <input type="text" id="grade2">
+                </td>
+                <td>
+                    <input type="text" id="point2">
+                </td>
+
+               <td>
+                <input  style="background-color: skyblue ;" type="button" onclick="result2()" value="Get Result">
+               </td>
+            </tr>
+
+            <tr style="background-color: aquamarine ;">
+                <td>3</td>
+                <td>English 1st Paper</td>
+                <td>201</td>
+                <td>
+                    <input type="text" id="tm3" value="0">
+                </td>
+                <td>
+                    <input type="text" id="pm3" value="0">
+                </td>
+                <td>
+                    <input type="text" id="ttm3">
+                </td>
+                <td>
+                    <input type="text" id="grade3">
+                </td>
+                <td>
+                    <input type="text" id="point3">
+                </td>
+
+               <td>
+                <input  style="background-color: skyblue ;" type="button" onclick="result3()" value="Get Result">
+               </td>
+            </tr>
+
+            <tr style="background-color: slategrey ;">
+                <td>4</td>
+                <td>Enlish 2nd Paper</td>
+                <td>202</td>
+                <td>
+                    <input type="text" id="tm4" value="0">
+                </td>
+                <td>
+                    <input type="text" id="pm4" value="0">
+                </td>
+                <td>
+                    <input type="text" id="ttm4">
+                </td>
+                <td>
+                    <input type="text" id="grade4">
+                </td>
+                <td>
+                    <input type="text" id="point4">
+                </td>
+
+               <td>
+                <input  style="background-color: skyblue ;" type="button" onclick="result4()" value="Get Result">
+               </td>
+            </tr>
+
+            <tr style="background-color: aquamarine ;">
+                <td>5</td>
+                <td>Mathmatics</td>
+                <td>107</td>
+                <td>
+                    <input type="text" id="tm5" value="0">
+                </td>
+                <td>
+                    <input type="text" id="pm5" value="0">
+                </td>
+                <td>
+                    <input type="text" id="ttm5">
+                </td>
+                <td>
+                    <input type="text" id="grade5">
+                </td>
+                <td>
+                    <input type="text" id="point5">
+                </td>
+
+               <td>
+                <input  style="background-color: skyblue ;" type="button" onclick="result5()" value="Get Result">
+               </td>
+            </tr>
+
+            <tr style="background-color: slategrey ;">
+                <td>6</td>
+                <td>Social Science</td>
+                <td>105</td>
+                <td>
+                    <input type="text" id="tm6" value="0">
+                </td>
+                <td>
+                    <input type="text" id="pm6" value="0">
+                </td>
+                <td>
+                    <input type="text" id="ttm6" >
+                </td>
+                <td>
+                    <input type="text" id="grade6">
+                </td>
+                <td>
+                    <input type="text" id="point6">
+                </td>
+
+               <td>
+                <input  style="background-color: skyblue ;" type="button" onclick="result6()" value="Get Result">
+               </td>
+            </tr>
+
+            <tr style="background-color: aquamarine ;">
+                <td>7</td>
+                <td>Physics</td>
+                <td>108</td>
+                <td>
+                    <input type="text" id="tm7" value="0">
+                </td>
+                <td>
+                    <input type="text" id="pm7" value="0">
+                </td>
+                <td>
+                    <input type="text" id="ttm7">
+                </td>
+                <td>
+                    <input type="text" id="grade7">
+                </td>
+                <td>
+                    <input type="text" id="point7">
+                </td>
+
+               <td>
+                <input  style="background-color: skyblue ;" type="button" onclick="result7()" value="Get Result">
+               </td>
+            </tr>
+
+            <tr style="background-color: slategrey ;">
+                <td>8</td>
+                <td>Chemistry</td>
+                <td>108</td>
+                <td>
+                    <input type="text" id="tm8" value="0">
+                </td>
+                <td>
+                    <input type="text" id="pm8" value="0">
+                </td>
+                <td>
+                    <input type="text" id="ttm8">
+                </td>
+                <td>
+                    <input type="text" id="grade8">
+                </td>
+                <td>
+                    <input type="text" id="point8">
+                </td>
+
+               <td>
+                <input  style="background-color: skyblue ;" type="button" onclick="result8()" value="Get Result">
+               </td>
+            </tr>
+
+            <tr style="background-color: aquamarine ;">
+                <td>9</td>
+                <td>Biology</td>
+                <td>106</td>
+                <td>
+                    <input type="text" id="tm9" value="0">
+                </td>
+                <td>
+                    <input type="text" id="pm9" value="0">
+                </td>
+                <td>
+                    <input type="text" id="ttm9">
+                </td>
+                <td>
+                    <input type="text" id="grade9">
+                </td>
+                <td>
+                    <input type="text" id="point9">
+                </td>
+
+               <td>
+                <input  style="background-color: skyblue ;" type="button" onclick="result9()" value="Get Result">
+               </td>
+            </tr>
+
+            <tr style="background-color: slategrey ;">
+                <td>10</td>
+                <td>Higher Math</td>
+                <td>111</td>
+                <td>
+                    <input type="text" id="tm10" value="0">
+                </td>
+                <td>
+                    <input type="text" id="pm10" value="0">
+                </td>
+                <td>
+                    <input type="text" id="ttm10">
+                </td>
+                <td>
+                    <input type="text" id="grade10">
+                </td>
+                <td>
+                    <input type="text" id="point10">
+                </td>
+
+               <td>
+                <input  style="background-color: skyblue ;" type="button" onclick="result10()" value="Get Result">
+               </td>
+            </tr>
+
+            <tr style="background-color: aquamarine ;">
+                <td>11</td>
+                <td>Islam Shikkha</td>
+                <td>112</td>
+                <td>
+                    <input type="text" id="tm11" value="0">
+                </td>
+                <td>
+                    <input type="text" id="pm11" value="0">
+                </td>
+                <td>
+                    <input type="text" id="ttm11">
+                </td>
+                <td>
+                    <input type="text" id="grade11">
+                </td>
+                <td>
+                    <input type="text" id="point11">
+                </td>
+
+               <td>
+                <input  style="background-color: skyblue ;" type="button" onclick="result11()" value="Get Result">
+               </td>
+            </tr>
+
+
+            <tr><th colspan="9"><hr style="background: blue; height: 3px; border: none;" ></th></tr>
+		<tr style="background-color: gray;">
+			<td colspan="5">Total Calculation</td>
+			<td>
+				<input type="text" id="totalMark">
+			</td>
+			<td>
+				<input type="text" id="totalgrade">
+			</td>
+			<td>
+				<input type="text" id="totalPoint">
+			</td>
+			<td>
+				<input type="button" value="Result" onclick="finalResult()">
+			</td>
+		</tr>
+
+        </table>
+
+
+
+
+
+
+
+   <script src="srcipt.js"></script>
+</body>
+</html>
